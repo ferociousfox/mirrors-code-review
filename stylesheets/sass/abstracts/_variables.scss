@@ -1,0 +1,17 @@
+// grid variables
+$grid-columns: 12;
+
+$grid-sizes: (
+  'sm':'screen and (min-width:1px)',
+  'md':'screen and (min-width:768)',
+  'lg':'screen and (min-width:1024)',
+  'xl':'screen and (min-width:1440)'
+);
+
+//color pallette
+
+//colors appled
+
+//sizing
+$padding-single: .5em;
+$padding-double: calc(#{$padding-single} * 2);
