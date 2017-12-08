@@ -15,7 +15,7 @@
   float: left;
   padding: $padding-single;
   width: 100%;
-  min-height: 5px;
+  min-height: 1px;
 }
 
 @each $size, $value in $grid-sizes {

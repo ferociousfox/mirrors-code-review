@@ -9,9 +9,19 @@ $grid-sizes: (
 );
 
 //color pallette
+$medium-grey: rgb(109,131,141);
+$light-red: rgb(171,136,130);
+$light-pink: rbg(179,155,177);
+$off-white: rgb(254,230,206);
 
-//colors appled
-
-//sizing
+//colors applied
+$bg-color: $medium-grey;
+$bg-footer: $light-red;
+$bg-card: $light-pink;
+$bg-blurb: $off-white;
+//sizing and spacing
+$border-radius: 7px;
+$header-height: 70px;
+$hero-height: calc(100vh - #{$header-height});
 $padding-single: .5em;
 $padding-double: calc(#{$padding-single} * 2);

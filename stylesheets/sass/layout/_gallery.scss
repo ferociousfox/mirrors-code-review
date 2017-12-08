@@ -1,0 +1,26 @@
+.gallery {
+  width: 100%;
+  @extend %clearfix;
+  padding: 0 $padding-single;
+}
+
+.card {
+  height: 500px;
+  @extend %clearfix;
+}
+
+.card-img {
+  height: 60%;
+  img {
+    border-radius: $border-radius $border-radius 0 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.card-body {
+  height: 40%;
+  background: $bg-card;
+  border-radius: 0 0 $border-radius $border-radius;
+}
