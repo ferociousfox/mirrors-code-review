@@ -5,7 +5,7 @@
 }
 
 .card {
-  height: 360px;
+  height: 400px;
   @extend %clearfix;
 }
 
@@ -23,4 +23,30 @@
   height: 40%;
   background: $bg-card;
   border-radius: 0 0 $border-radius $border-radius;
+  p {
+    padding: 17px;
+  }
 }
+
+@media screen and (min-width:1024px) {
+  .card-img {
+    height: 100%;
+    img {
+      border-radius: $border-radius 0 0 $border-radius;
+      object-fit: cover;
+      height: 100%;
+      width: 60%;
+      }
+    }
+    .card{
+
+    }
+    .card-body {
+      position: relative;
+      top: -360px;
+      text-align: right;
+      width: 30%;
+      right: -319px;
+      padding-top: 60px;
+    }
+  }

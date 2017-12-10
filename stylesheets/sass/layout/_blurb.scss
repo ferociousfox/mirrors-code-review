@@ -1,0 +1,13 @@
+.blurb {
+  height: 30%;
+  width: 80%;
+  //colors
+  padding: $padding-double;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 56px;
+  right: 77px;
+}
