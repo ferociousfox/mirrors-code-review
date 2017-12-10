@@ -24,9 +24,7 @@ _week 3 of CSS code review_
 _how I will change my approach_. Today I will mostly approach this project in much the same manner to how Adam and I did things over the last two days. That said, I will be stripping it down a bit in complexity. The 7:1 file structure feels a bit large for a single page where a framework isn't used. I'll set up a 4:1 structure with fewer files to simplify things a bit. One piece I picked up that I will implement was setting a rather large number of variables for sizes and colors. Setting an almost excessive number of variables was incredibly helpful once we had moved to the final stages of polishing the page, when something needed tweaking we could do it all on the variable page and changes were applied across the entire document. This helped to standardize the look of the page and saved time, double-bonus. Another piece I picked up from Adam was that I tended to want to move on before he did on particular parts of the project, often I liked the outcome, but he seemed to make extra work for himself. We often could have fixed the problem with less code or less work. Overall the outcome was good, but given a limited amount of time, many of the sidebars we took could have been avoided. Again, mostly the workflow will be done in the same manner of mobile first/ outside-in/ broad to granular.
 ### Setup
 
-Visit the webpage [here]().
-
-Alternately you may [Clone this repository]().
+You can [Clone this repository](https://github.com/ferociousfox/mirrors-code-review) to view this project.
   1. Click on the link above.
   2. Click the green button marked **Clone or download**.
   3. Click **Download ZIP**.
