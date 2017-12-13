@@ -375,22 +375,6 @@ body {
   .card-body p {
     padding: 17px; }
 
-@media screen and (min-width: 1024px) {
-  .card-img {
-    height: 100%; }
-    .card-img img {
-      border-radius: 7px 0 0 7px;
-      object-fit: cover;
-      height: 100%;
-      width: 60%; }
-
-  .card-body {
-    position: relative;
-    top: -360px;
-    text-align: right;
-    width: 30%;
-    right: -319px;
-    padding-top: 60px; } }
 .footer {
   background-color: #ab8882;
   height: 70px;
